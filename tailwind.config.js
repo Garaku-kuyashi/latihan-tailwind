@@ -14,6 +14,20 @@ module.exports = {
       screens: {
         "2xl": "1536px",
       },
+      animation: {
+        animasi: "animasi 2s ease-in-out forwards",
+      },
+      keyframes: {
+        animasi: {
+          "0%": {
+            transform: "translate(-40px, 0px)",
+            opacity: "0",
+          },
+          "50%": {
+            transform: "translate(40px, 0px)",
+          },
+        },
+      },
     },
   },
   plugins: [],
